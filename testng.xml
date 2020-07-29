@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="comhubspot.qa.ExtentReportListener.ExtentReportNG" />
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.hubspot.generic.qa.testPages.HomePagetest"/>
+      <class name="com.hubspot.generic.qa.testPages.logintest"/>
+      <class name="com.hubspot.generic.qa.testPages.ContactPagetest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
