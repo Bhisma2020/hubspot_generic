@@ -25,6 +25,7 @@ public class HomePage extends BasePage {
 	public ContactPage doclickContacts() throws InterruptedException {
 		
 		eleutil.doClick(Maincontacts);
+		//eleutil.actionClick(Maincontacts);
 		eleutil.doClick(selectcontact);
 		
 	

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="66.208" tests="23" errors="0" skipped="20" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="78.739" tests="23" errors="0" skipped="20" failures="2">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="hubspot29July2020"/>
@@ -8,12 +8,14 @@
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="HUDSON_SERVER_COOKIE" value="9a3c59aa21ae5cec"/>
+    <property name="POM_ARTIFACTID" value="hubspot_generic"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.boot.class.path" value="C:\Program Files\java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\java\jdk1.8.0_251\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="hubspot_generic"/>
     <property name="NODE_LABELS" value="master"/>
     <property name="TEMP" value="C:\WINDOWS\TEMP"/>
     <property name="java.runtime.version" value="1.8.0_251-b08"/>
@@ -24,8 +26,8 @@
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="hubspot29July2020"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/hubspot29July2020/1/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/hubspot29July2020/19/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#19"/>
     <property name="sun.boot.library.path" value="C:\Program Files\java\jdk1.8.0_251\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.8.0_251"/>
@@ -36,7 +38,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\java\jdk1.8.0_251\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="1"/>
+    <property name="BUILD_ID" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -50,7 +52,8 @@
     <property name="java.home" value="C:\Program Files\java\jdk1.8.0_251\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/hubspot29July2020/1/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/hubspot29July2020/19/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="configsetroot" value="C:\WINDOWS\ConfigSetRoot"/>
     <property name="TMP" value="C:\WINDOWS\TEMP"/>
     <property name="path.separator" value=";"/>
@@ -64,12 +67,14 @@
     <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
     <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
     <property name="SERVICE_ID" value="Jenkins"/>
     <property name="COMPUTERNAME" value="LAPTOP-EG3C4IFC"/>
     <property name="user.script" value=""/>
-    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="POM_GROUPID" value="hubspot_generic"/>
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
-    <property name="BUILD_TAG" value="jenkins-hubspot29July2020-1"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-hubspot29July2020-19"/>
     <property name="JENKINS_SERVER_COOKIE" value="9a3c59aa21ae5cec"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -83,7 +88,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven\boot\plexus-classworlds-2.6.0.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 57719"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 64589"/>
     <property name="Path" value="C:\Program Files\java\jdk1.8.0_251/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\java\jdk1.8.0_251;C:\apache-maven-3.6.3\bin;C:\apache-maven-3.6.3;C:\apache-maven-3.6.3\lib;C:\Program Files\java\jdk1.8.0_251\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
@@ -98,7 +103,7 @@
     <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PATH+MAVEN" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/hubspot29July2020/1/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/hubspot29July2020/19/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -110,7 +115,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="MAVEN_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="1"/>
+    <property name="BUILD_NUMBER" value="19"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="8e0a"/>
@@ -127,92 +132,92 @@
     <property name="PSModulePath" value="C:\Program Files (x86)\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\AutoIt3\AutoItX"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
   </properties>
-  <testcase name="verifyContacttabisClicked" classname="com.hubspot.generic.qa.testPages.HomePagetest" time="11.936">
-    <failure message="element not interactable&#10;  (Session info: chrome=83.0.4103.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-EG3C4IFC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:57735}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 16e21aca0c30d1eca4a15cd667f7a0a3" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
+  <testcase name="verifyContacttabisClicked" classname="com.hubspot.generic.qa.testPages.HomePagetest" time="11.975">
+    <failure message="element not interactable&#10;  (Session info: chrome=83.0.4103.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-EG3C4IFC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:64600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 20a3049b01fee187e35b2ff36cb03c59" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
 element not interactable
   (Session info: chrome=83.0.4103.61)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-EG3C4IFC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:57735}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 16e21aca0c30d1eca4a15cd667f7a0a3
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:64600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 20a3049b01fee187e35b2ff36cb03c59
 	at com.hubspot.generic.qa.testPages.HomePagetest.verifyContacttabisClicked(HomePagetest.java:37)
 </failure>
     <system-out><![CDATA[Before navigating to: 'https://app.hubspot.com'
 Navigated to:'https://app.hubspot.com'
 Trying to find Element By : By.id: username
 Found Element By : By.id: username
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (16e21aca0c30d1eca4a15cd667f7a0a3)] -> id: username]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (16e21aca0c30d1eca4a15cd667f7a0a3)] -> id: username]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (20a3049b01fee187e35b2ff36cb03c59)] -> id: username]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (20a3049b01fee187e35b2ff36cb03c59)] -> id: username]
 Trying to find Element By : By.id: username
 Found Element By : By.id: username
 Trying to find Element By : By.id: password
 Found Element By : By.id: password
 Trying to find Element By : By.id: loginBtn
 Found Element By : By.id: loginBtn
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (16e21aca0c30d1eca4a15cd667f7a0a3)] -> id: loginBtn]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (16e21aca0c30d1eca4a15cd667f7a0a3)] -> id: loginBtn]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (20a3049b01fee187e35b2ff36cb03c59)] -> id: loginBtn]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (20a3049b01fee187e35b2ff36cb03c59)] -> id: loginBtn]
 Trying to find Element By : By.xpath: //div[@class='nav-left']//a[@id='nav-primary-contacts-branch']
 Found Element By : By.xpath: //div[@class='nav-left']//a[@id='nav-primary-contacts-branch']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (16e21aca0c30d1eca4a15cd667f7a0a3)] -> xpath: //div[@class='nav-left']//a[@id='nav-primary-contacts-branch']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (20a3049b01fee187e35b2ff36cb03c59)] -> xpath: //div[@class='nav-left']//a[@id='nav-primary-contacts-branch']]
 Exception occured: org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=83.0.4103.61)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-EG3C4IFC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:57735}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 16e21aca0c30d1eca4a15cd667f7a0a3
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:64600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 20a3049b01fee187e35b2ff36cb03c59
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 7406
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 17124
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 29, 2020 2:44:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 29, 2020 4:44:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyusercanLogin" classname="com.hubspot.generic.qa.testPages.logintest" time="5.251"/>
-  <testcase name="setUp" classname="com.hubspot.generic.qa.testPages.ContactPagetest" time="27.57">
-    <failure message="element click intercepted: Element &lt;a href=&quot;?isDestination=false&quot; id=&quot;nav-primary-contacts-branch&quot; data-tracking=&quot;click hover&quot; role=&quot;menuitem&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; class=&quot;primary-link&quot;&gt;...&lt;/a&gt; is not clickable at point (44, 27). Other element would receive the click: &lt;svg id=&quot;hs-nav-v4--logo&quot; viewBox=&quot;0 0 242.04 257&quot; alt=&quot;Home&quot; class=&quot;nav-logo logo&quot;&gt;...&lt;/svg&gt;&#10;  (Session info: chrome=83.0.4103.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-EG3C4IFC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:57835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2bfbd6e2f1bf182306ed4ac8fa2b5161" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <a href="?isDestination=false" id="nav-primary-contacts-branch" data-tracking="click hover" role="menuitem" aria-haspopup="true" aria-expanded="false" class="primary-link">...</a> is not clickable at point (44, 27). Other element would receive the click: <svg id="hs-nav-v4--logo" viewBox="0 0 242.04 257" alt="Home" class="nav-logo logo">...</svg>
+  <testcase name="verifyusercanLogin" classname="com.hubspot.generic.qa.testPages.logintest" time="6.206"/>
+  <testcase name="setUp" classname="com.hubspot.generic.qa.testPages.ContactPagetest" time="37.922">
+    <failure message="element not interactable&#10;  (Session info: chrome=83.0.4103.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-EG3C4IFC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:64692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 9a9150e1ce4cc24cd129c976d16954e0" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
   (Session info: chrome=83.0.4103.61)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-EG3C4IFC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:57835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2bfbd6e2f1bf182306ed4ac8fa2b5161
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:64692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9a9150e1ce4cc24cd129c976d16954e0
 	at com.hubspot.generic.qa.testPages.ContactPagetest.setUp(ContactPagetest.java:39)
-]]></failure>
+</failure>
     <system-out><![CDATA[Before navigating to: 'https://app.hubspot.com'
 Navigated to:'https://app.hubspot.com'
 Trying to find Element By : By.id: username
 Found Element By : By.id: username
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (2bfbd6e2f1bf182306ed4ac8fa2b5161)] -> id: username]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (2bfbd6e2f1bf182306ed4ac8fa2b5161)] -> id: username]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9a9150e1ce4cc24cd129c976d16954e0)] -> id: username]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9a9150e1ce4cc24cd129c976d16954e0)] -> id: username]
 Trying to find Element By : By.id: username
 Found Element By : By.id: username
 Trying to find Element By : By.id: password
 Found Element By : By.id: password
 Trying to find Element By : By.id: loginBtn
 Found Element By : By.id: loginBtn
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (2bfbd6e2f1bf182306ed4ac8fa2b5161)] -> id: loginBtn]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (2bfbd6e2f1bf182306ed4ac8fa2b5161)] -> id: loginBtn]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9a9150e1ce4cc24cd129c976d16954e0)] -> id: loginBtn]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9a9150e1ce4cc24cd129c976d16954e0)] -> id: loginBtn]
 Trying to find Element By : By.xpath: //div[@class='nav-left']//a[@id='nav-primary-contacts-branch']
 Found Element By : By.xpath: //div[@class='nav-left']//a[@id='nav-primary-contacts-branch']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (2bfbd6e2f1bf182306ed4ac8fa2b5161)] -> xpath: //div[@class='nav-left']//a[@id='nav-primary-contacts-branch']]
-Exception occured: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="?isDestination=false" id="nav-primary-contacts-branch" data-tracking="click hover" role="menuitem" aria-haspopup="true" aria-expanded="false" class="primary-link">...</a> is not clickable at point (44, 27). Other element would receive the click: <svg id="hs-nav-v4--logo" viewBox="0 0 242.04 257" alt="Home" class="nav-logo logo">...</svg>
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9a9150e1ce4cc24cd129c976d16954e0)] -> xpath: //div[@class='nav-left']//a[@id='nav-primary-contacts-branch']]
+Exception occured: org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=83.0.4103.61)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-EG3C4IFC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:57835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2bfbd6e2f1bf182306ed4ac8fa2b5161
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:64692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9a9150e1ce4cc24cd129c976d16954e0
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 27073
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 8367
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 29, 2020 2:45:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 29, 2020 4:45:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
@@ -235,7 +240,7 @@ INFO: Detected dialect: W3C
     <skipped/>
   </testcase>
   <testcase name="verifyTheContactsPagetitle" classname="com.hubspot.generic.qa.testPages.ContactPagetest" time="0">
-    <skipped message="element click intercepted: Element &lt;a href=&quot;?isDestination=false&quot; id=&quot;nav-primary-contacts-branch&quot; data-tracking=&quot;click hover&quot; role=&quot;menuitem&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; class=&quot;primary-link&quot;&gt;...&lt;/a&gt; is not clickable at point (44, 27). Other element would receive the click: &lt;svg id=&quot;hs-nav-v4--logo&quot; viewBox=&quot;0 0 242.04 257&quot; alt=&quot;Home&quot; class=&quot;nav-logo logo&quot;&gt;...&lt;/svg&gt;&#10;  (Session info: chrome=83.0.4103.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-EG3C4IFC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:57835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2bfbd6e2f1bf182306ed4ac8fa2b5161"/>
+    <skipped message="element not interactable&#10;  (Session info: chrome=83.0.4103.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-EG3C4IFC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:64692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 9a9150e1ce4cc24cd129c976d16954e0"/>
   </testcase>
   <testcase name="tearDown" classname="com.hubspot.generic.qa.testPages.ContactPagetest" time="0">
     <skipped/>
@@ -259,21 +264,21 @@ INFO: Detected dialect: W3C
     <skipped/>
   </testcase>
   <testcase name="validateusercanCreateNewContacts" classname="com.hubspot.generic.qa.testPages.ContactPagetest" time="0">
-    <skipped message="element click intercepted: Element &lt;a href=&quot;?isDestination=false&quot; id=&quot;nav-primary-contacts-branch&quot; data-tracking=&quot;click hover&quot; role=&quot;menuitem&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; class=&quot;primary-link&quot;&gt;...&lt;/a&gt; is not clickable at point (44, 27). Other element would receive the click: &lt;svg id=&quot;hs-nav-v4--logo&quot; viewBox=&quot;0 0 242.04 257&quot; alt=&quot;Home&quot; class=&quot;nav-logo logo&quot;&gt;...&lt;/svg&gt;&#10;  (Session info: chrome=83.0.4103.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-EG3C4IFC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:57835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2bfbd6e2f1bf182306ed4ac8fa2b5161"/>
+    <skipped message="element not interactable&#10;  (Session info: chrome=83.0.4103.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-EG3C4IFC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:64692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 9a9150e1ce4cc24cd129c976d16954e0"/>
   </testcase>
   <testcase name="validateusercanCreateNewContacts" classname="com.hubspot.generic.qa.testPages.ContactPagetest" time="0">
-    <skipped message="element click intercepted: Element &lt;a href=&quot;?isDestination=false&quot; id=&quot;nav-primary-contacts-branch&quot; data-tracking=&quot;click hover&quot; role=&quot;menuitem&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; class=&quot;primary-link&quot;&gt;...&lt;/a&gt; is not clickable at point (44, 27). Other element would receive the click: &lt;svg id=&quot;hs-nav-v4--logo&quot; viewBox=&quot;0 0 242.04 257&quot; alt=&quot;Home&quot; class=&quot;nav-logo logo&quot;&gt;...&lt;/svg&gt;&#10;  (Session info: chrome=83.0.4103.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-EG3C4IFC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:57835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2bfbd6e2f1bf182306ed4ac8fa2b5161"/>
+    <skipped message="element not interactable&#10;  (Session info: chrome=83.0.4103.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-EG3C4IFC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:64692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 9a9150e1ce4cc24cd129c976d16954e0"/>
   </testcase>
   <testcase name="validateusercanCreateNewContacts" classname="com.hubspot.generic.qa.testPages.ContactPagetest" time="0">
-    <skipped message="element click intercepted: Element &lt;a href=&quot;?isDestination=false&quot; id=&quot;nav-primary-contacts-branch&quot; data-tracking=&quot;click hover&quot; role=&quot;menuitem&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; class=&quot;primary-link&quot;&gt;...&lt;/a&gt; is not clickable at point (44, 27). Other element would receive the click: &lt;svg id=&quot;hs-nav-v4--logo&quot; viewBox=&quot;0 0 242.04 257&quot; alt=&quot;Home&quot; class=&quot;nav-logo logo&quot;&gt;...&lt;/svg&gt;&#10;  (Session info: chrome=83.0.4103.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-EG3C4IFC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:57835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2bfbd6e2f1bf182306ed4ac8fa2b5161"/>
+    <skipped message="element not interactable&#10;  (Session info: chrome=83.0.4103.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-EG3C4IFC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:64692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 9a9150e1ce4cc24cd129c976d16954e0"/>
   </testcase>
   <testcase name="validateusercanCreateNewContacts" classname="com.hubspot.generic.qa.testPages.ContactPagetest" time="0">
-    <skipped message="element click intercepted: Element &lt;a href=&quot;?isDestination=false&quot; id=&quot;nav-primary-contacts-branch&quot; data-tracking=&quot;click hover&quot; role=&quot;menuitem&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; class=&quot;primary-link&quot;&gt;...&lt;/a&gt; is not clickable at point (44, 27). Other element would receive the click: &lt;svg id=&quot;hs-nav-v4--logo&quot; viewBox=&quot;0 0 242.04 257&quot; alt=&quot;Home&quot; class=&quot;nav-logo logo&quot;&gt;...&lt;/svg&gt;&#10;  (Session info: chrome=83.0.4103.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-EG3C4IFC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:57835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2bfbd6e2f1bf182306ed4ac8fa2b5161"/>
+    <skipped message="element not interactable&#10;  (Session info: chrome=83.0.4103.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-EG3C4IFC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:64692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 9a9150e1ce4cc24cd129c976d16954e0"/>
   </testcase>
   <testcase name="validateusercanCreateNewContacts" classname="com.hubspot.generic.qa.testPages.ContactPagetest" time="0">
-    <skipped message="element click intercepted: Element &lt;a href=&quot;?isDestination=false&quot; id=&quot;nav-primary-contacts-branch&quot; data-tracking=&quot;click hover&quot; role=&quot;menuitem&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; class=&quot;primary-link&quot;&gt;...&lt;/a&gt; is not clickable at point (44, 27). Other element would receive the click: &lt;svg id=&quot;hs-nav-v4--logo&quot; viewBox=&quot;0 0 242.04 257&quot; alt=&quot;Home&quot; class=&quot;nav-logo logo&quot;&gt;...&lt;/svg&gt;&#10;  (Session info: chrome=83.0.4103.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-EG3C4IFC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:57835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2bfbd6e2f1bf182306ed4ac8fa2b5161"/>
+    <skipped message="element not interactable&#10;  (Session info: chrome=83.0.4103.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-EG3C4IFC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:64692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 9a9150e1ce4cc24cd129c976d16954e0"/>
   </testcase>
   <testcase name="deleteContacts" classname="com.hubspot.generic.qa.testPages.ContactPagetest" time="0">
-    <skipped message="element click intercepted: Element &lt;a href=&quot;?isDestination=false&quot; id=&quot;nav-primary-contacts-branch&quot; data-tracking=&quot;click hover&quot; role=&quot;menuitem&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; class=&quot;primary-link&quot;&gt;...&lt;/a&gt; is not clickable at point (44, 27). Other element would receive the click: &lt;svg id=&quot;hs-nav-v4--logo&quot; viewBox=&quot;0 0 242.04 257&quot; alt=&quot;Home&quot; class=&quot;nav-logo logo&quot;&gt;...&lt;/svg&gt;&#10;  (Session info: chrome=83.0.4103.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-EG3C4IFC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:57835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2bfbd6e2f1bf182306ed4ac8fa2b5161"/>
+    <skipped message="element not interactable&#10;  (Session info: chrome=83.0.4103.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-EG3C4IFC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:64692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 9a9150e1ce4cc24cd129c976d16954e0"/>
   </testcase>
 </testsuite>

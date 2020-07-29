@@ -10,12 +10,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.hubspot.generic.qa.BasePage.BasePage;
+
 
 
 
@@ -142,6 +144,12 @@ public class ElementUtil extends BasePage{
 			return element;
 		}
 		
+		
+		
+		public void actionClick(By locator) {
+			Actions action = new Actions(driver);
+			action.moveToElement(getElement(locator)).click().perform();
+		}
 	
 		
 }
